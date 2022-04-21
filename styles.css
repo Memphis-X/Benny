@@ -32,6 +32,7 @@ header ul{
 header li{
     list-style: none;
     margin-right: 20px;
+    
 }
 
 header ul li a{
@@ -152,6 +153,7 @@ header ul li a{
     box-sizing: border-box;
     color: #FFFFFF;
     font: lighter 16px 'Space Grotesk', sans-serif;
+    cursor:pointer;
 }
 
 .bridge {
@@ -184,6 +186,7 @@ header ul li a{
     box-sizing: border-box;
     color: #FFFFFF;
     font: lighter 16px 'Space Grotesk', sans-serif;
+    cursor:pointer;
 }
 
 .ass {
@@ -219,6 +222,7 @@ header ul li a{
     box-sizing: border-box;
     color: #FFFFFF;
     font: lighter 16px 'Space Grotesk', sans-serif;
+    cursor:pointer;
 }
 
 .res {
@@ -227,7 +231,7 @@ header ul li a{
     height: 729px;
     left: 732px;
     top: 2250px;
-    background-color: #2596be;
+    background-color: #19807C;;
 }
 
 .res img {
@@ -255,6 +259,7 @@ header ul li a{
     box-sizing: border-box;
     color: #FFFFFF;
     font: lighter 16px 'Space Grotesk', sans-serif;
+    cursor:pointer;
 }
 
 .cpc {
@@ -263,22 +268,44 @@ header ul li a{
     height: 729px;
     left: 80px;
     top: 3250px;
+    background: linear-gradient(-45deg, rgba(132, 48, 123, 1) 50%, rgba(43, 43, 93, 1) 70%);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
 }
 
-.cpc img {
-    width: 100%;
-    height: 100%;
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.cpc h5{
+    height: 600px;
+    font: lighter 18px 'Space Grotesk', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cpc h3 {
     font: lighter 24px 'Space Grotesk', sans-serif;
     color: #FFFFFF;
+    margin-top: 150px;
 }
 
 .cpc h4 {
     font: lighter 18px 'Space Grotesk', sans-serif;
     color: #FFFFFF;
-    top: 10px;
+    
 }
 
 .cpc .box button {
@@ -290,6 +317,7 @@ header ul li a{
     box-sizing: border-box;
     color: #FFFFFF;
     font: lighter 16px 'Space Grotesk', sans-serif;
+    cursor:pointer;
 }
 
 .klm {
@@ -298,16 +326,24 @@ header ul li a{
     height: 729px;
     left: 732px;
     top: 3250px;
+    background: linear-gradient(-45deg, rgba(161, 1, 77, 1) 50%, rgba(85, 26, 59, 1) 70%);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
 }
 
-.klm img {
-    width: 100%;
-    height: 100%;
+.klm h5 {
+    height: 600px;
+    font: lighter 18px 'Space Grotesk', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .klm h3 {
     font: lighter 24px 'Space Grotesk', sans-serif;
     color: #FFFFFF;
+    margin-top: 150px;
 }
 
 .klm h4 {
@@ -325,4 +361,50 @@ header ul li a{
     box-sizing: border-box;
     color: #FFFFFF;
     font: lighter 16px 'Space Grotesk', sans-serif;
+    cursor:pointer;
+}
+
+.line {
+    position: absolute;
+    width: 1280px;
+    height: 0px;
+    left: 80px;
+    top: 4400px;
+    opacity: 0.2;
+    border: 1px solid #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 335px;
+    width: 701px;
+    left: 338px;
+    top: 4500px;
+    text-align: center;
+}
+.footer h1{
+    font: lighter 44px 'Space Grotesk', sans-serif;
+}
+
+.footer h5 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 23px;
+    font: lighter 14px 'Space Grotesk', sans-serif;
+    top: 150px;
+    cursor:pointer;
+}
+
+.footer .soc {
+    display: flex;
+    cursor:pointer;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 283px;
+    height: 23px;
+    top: 200px;
+    font: lighter 20px 'Space Grotesk', sans-serif;
 }
