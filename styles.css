@@ -88,12 +88,16 @@ header ul li a{
     line-height: 35px;
     color: #ffffff;
     opacity: 0.5;
+    margin-top: -20px;
 }
 .content .left button{
     position: absolute;
     width: 128px;
     height: 50px;
     top: 350px;
+    font: lighter 16px 'Space Grotesk',
+    sans-serif;
+    
 }
 
 .content_img{
@@ -126,6 +130,10 @@ header ul li a{
     left: 80px;
     top: 1240px;
 }
+.bawo img{
+    width: 100%;
+    height: 100%;
+}
 .bawo h3{
     font: lighter 24px 'Space Grotesk', sans-serif;
     color: #FFFFFF;
@@ -153,6 +161,10 @@ header ul li a{
     left: 732px;
     top: 1240px;
 }
+.bridge img{
+    width: 100%;
+    height: 100%;
+}
 .bridge h3 {
     font: lighter 24px 'Space Grotesk', sans-serif;
     color: #FFFFFF;
@@ -164,6 +176,147 @@ header ul li a{
 }
 
 .bridge .box button {
+    position: absolute;
+    width: 167px;
+    height: 50px;
+    background: #010912;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font: lighter 16px 'Space Grotesk', sans-serif;
+}
+
+.ass {
+    position: absolute;
+    width: 628px;
+    height: 729px;
+    left: 80px;
+    top: 2250px;
+}
+
+.ass img {
+    width: 100%;
+    height: 100%;
+}
+
+.ass h3 {
+    font: lighter 24px 'Space Grotesk', sans-serif;
+    color: #FFFFFF;
+}
+
+.ass h4 {
+    font: lighter 18px 'Space Grotesk', sans-serif;
+    color: #FFFFFF;
+    top: 10px;
+}
+
+.ass .box button {
+    position: absolute;
+    width: 167px;
+    height: 50px;
+    background: #010912;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font: lighter 16px 'Space Grotesk', sans-serif;
+}
+
+.res {
+    position: absolute;
+    width: 628px;
+    height: 729px;
+    left: 732px;
+    top: 2250px;
+    background-color: #2596be;
+}
+
+.res img {
+    width: 100%;
+    height: 100%;
+}
+
+.res h3 {
+    font: lighter 24px 'Space Grotesk', sans-serif;
+    color: #FFFFFF;
+}
+
+.res h4 {
+    font: lighter 18px 'Space Grotesk', sans-serif;
+    color: #FFFFFF;
+    top: 10px;
+}
+
+.res .box button {
+    position: absolute;
+    width: 167px;
+    height: 50px;
+    background: #010912;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font: lighter 16px 'Space Grotesk', sans-serif;
+}
+
+.cpc {
+    position: absolute;
+    width: 628px;
+    height: 729px;
+    left: 80px;
+    top: 3250px;
+}
+
+.cpc img {
+    width: 100%;
+    height: 100%;
+}
+
+.cpc h3 {
+    font: lighter 24px 'Space Grotesk', sans-serif;
+    color: #FFFFFF;
+}
+
+.cpc h4 {
+    font: lighter 18px 'Space Grotesk', sans-serif;
+    color: #FFFFFF;
+    top: 10px;
+}
+
+.cpc .box button {
+    position: absolute;
+    width: 167px;
+    height: 50px;
+    background: #010912;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font: lighter 16px 'Space Grotesk', sans-serif;
+}
+
+.klm {
+    position: absolute;
+    width: 628px;
+    height: 729px;
+    left: 732px;
+    top: 3250px;
+}
+
+.klm img {
+    width: 100%;
+    height: 100%;
+}
+
+.klm h3 {
+    font: lighter 24px 'Space Grotesk', sans-serif;
+    color: #FFFFFF;
+}
+
+.klm h4 {
+    font: lighter 18px 'Space Grotesk', sans-serif;
+    color: #FFFFFF;
+    top: 10px;
+}
+
+.klm .box button {
     position: absolute;
     width: 167px;
     height: 50px;
